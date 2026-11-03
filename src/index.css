@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "Noto Sans", "Noto Sans KR", Pretendard, -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  --color-navy: #0b2545;
+  --color-navy-dark: #071a30;
+  --color-accent: #f59e0b;
+  --color-accent-hover: #d97706;
+  --color-page: #eef2f5;
+  --color-ice: #e0f2fe;
+  --color-ice-bg: #eff6ff;
+  --color-ice-border: #bae6fd;
+  --color-footer: #e2e8f0;
+  --color-muted: #52677c;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-page);
+  color: var(--color-navy);
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+  font-size: inherit;
+  line-height: 1;
+  user-select: none;
+}

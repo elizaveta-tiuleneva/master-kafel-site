@@ -1,0 +1,31 @@
+import heroImage from "../assets/img/hero/hero.png";
+
+// Временные изображения для демонстрационных проектов.
+// Удаляются вместе с demo-данными после подключения базы.
+export const IMAGES = {
+  hero: heroImage,
+  bathroom:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuDsWhqxJ44Lek2WUwx4uynum0dMe3FpxIHwAIovvcj2dNic95H5xC7x5rb4Qgk1VLx6MY8tzddA5R0KmbN0Q3HUOxiInGZ6ywyENo4pisoAPGffClOphd2eff52B-kGNzHuz9ZjVU0tbT0IenAHu2gPaoTsVnz1KnADXdo2eOcDDAirUjt_gJY4zc9GuauV3jkVgaexhYVgMo8fG3S-ZWar7VaZ0fKfyWuXY0Ek3qFP970Az4nrPKwb",
+  kitchen:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuDGJZGfAn7WtyipiDdBwZhEfQ7HxftUZFbDibhu1zAOeL6q7-6f0FPyym_C6JC0GOSZIoY7Uy6X_5vc9BlTRm5tfA_AbpHdXI_mY1-cSAXmy9io_eDjpAuyGuyHRP16ZjoKh3eGYxjf0rclP4EwgSig3scbocM2aUOflI3HsmHXnHE4yDX253uP1KNb3dv0Q9RSu2v0KwVOsJB6SJ6G1FYgwqjeWMwbcQsMJl4Bc_JfWxhtll3dljia",
+  floor:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBw6LC6iCqPfbv93w-XVY2OfRf8bpkoK6VOrMRVM6PspY2rXr-uqivOegE90uILI3SQuCnu_yK_R9WvFSdWPLvxGfHbesZDumUxBbvEiCztodDVq2Tsj9_Ud_cILx339bo3lv6larH60cbk4EM3ROl5xw35hEus0cUAnFqhocuTE9yCKIAypPj7_yWA9qm8g1jL1RnBYVZHHo2z7FsFesoSq7Kz1cvLa8s0yzXX582OnHZn8bZ74o37",
+  walls:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuAtQayNaPL44guNR7ML4EitsOHcjYkuOUH9w1mEvBODxeTY3bLOEY6-lHAQEsfXKfIxTJc26l7N-aFHxvZZ-rZf6KYWYL3Ia6wYnAxRWW5IxmPrccPn9PMSZg-nieA9eiI2IHG-3yqJeAS2_-NZszRJKYje509Fi_F7Y5i7eIxKd3jqa7sQFsF3ZgZEyDcx54YHU_dx4SMhXM1pJsXksnWy2LfgPdGsSSy58JDo1JmJRKGOTyAkmZxU",
+  mapo: "https://lh3.googleusercontent.com/aida-public/AB6AXuBjYS2oDqjRJBjZ8ap3itgbq6E6ePmdJYv50bHR0Z96fSj7cN87HCBdj3v123lXaB22sPCjaCpKjbshhlG208dW3BiaqLCjs4-r49JRbF49Gkap1aw1WBkU3q-TQhwUs9aj_VbUHi0Z6YaQc8pdw6QDhjPzkYO4BCNCEc9FLQbjBwunE4Rm-RCnquvSun0vKucg5u7h8D-0LHYCsRyHjzcNc9akZI6JAtETSCfiwGCxOTLiyt2hQ8xn",
+  suwon:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBx9BG2m0L-iouOwqJPQUVhM6X49OdLRPPK4SB8XeeHzZav9ieBOXz2ZZBMq2cVQqklCLYqZj-2k38uiOKDifVZrlHna5EouS37MGyPwmI9w4i9dwUGDV-Bb3HAK71bONNWEjij0lXat5s4vIFgfm_kv1vVgGOywCdq6rtTHjSzvyrHKZgp9kNKA5EkJcMLaw0cpgGQW6eGF6JNRFtWcfyhJFCETjyIyH4NOCL8DLSP6CLCUynm_nFD",
+  songdo:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBxxOYNz7_VLFuB_2jfjIW3lBhyrttbDPfNrDaRPf3irMj_YygplyA2ahOTJenEHlZnAsL5OrTnC-IRr4VV6tvEynvY2ZttyK7Ax8U63XRCQ-z4dfj95L2fOKbR4ewqx1b-Zw-D_ez_y4s5yWrUf4g1nW5Y2J7Z9dW_qEOHiF6Id2eR3yM2T14q7Ai4u2E_q-B_Cij0ZDFT_zT7OXXVDMDbV254rRSqvUaQLJQR83xZUCBe9dRHsSpS",
+  ansan:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuCtB6r-7Sm-sQBYrQWu-rFZ641-nNmZKW_Hm6uBQ9rGtxot_qYMoDX9eDRfb6K96EDxs0dXNszvsUx96BBCRe4_g3R51pWele0yAzkk_MS9CVEWhFt6l49K77w8Z4AwYst1FU5MQu_KKOA3cew_zYczGwX_81FF3JGRQCYekOce8l5EQLAlO85bwHBnKvNEC8EItlJOM14aGxMWrgr_Glwn3qqsqv6ighoxYPsdF-Rww_cVBqQT-9GE",
+  dongtan:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuCK_37Tb5Vw3uZCaRhKaw8R86MGP48V6Pgg5DZbKjWRIdq4-AgSpgDqMIeuY4iHqCAm6tOPvnjBVgTToXeHzHv7XBXvJf9zUeQD2HFX4sfkokWpkdG8ANaNYwuqzTKzBaifNMi-5xLiwpwZvAMyI8sY4wxnP6ez8Lw9vsnytj5wm0FZIT0FpTt9pxyyKAvoCt-RhIEUHukvdUDilpowAd66sqJZHZvW5iZcFLEMJdAdSQ8YsLCQI6kG",
+  gangnam:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuB9nkpPqn2-ZAkxNEhY45xHggiMGx2UdGK9PmUMHyKHUUmzMVlXrpxX0BxwujT2EEENoOZ7TFDcEOXevMdjcrC-_R2hDRjo1PIattnCpSr8PTaI0HhnYdpCSL6amqI1FJ5pP2vy4Gjj_uE2E_uqmpodz7WR-hw339SAZjtIaAmHorMOF3uYXBnEwZvubtP11AHaXdZYrFguuF0eNhqvB-zL6P2dhAZVuDGHD5N8DuTueQe-r__PIPTr",
+};
+
+export const PHONES = {
+  call: "010-3842-7914",
+  callHref: "tel:010-3842-7914",
+};
